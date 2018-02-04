@@ -1,0 +1,144 @@
+/* Images */
+
+.big-picture {
+    width: 60%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.caption {
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.caption i, p {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Structure */
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+html,body {
+    height:100%;
+    margin:0;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+html>body .content {
+  height:auto;
+}
+
+#content {
+  min-height:100%;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.block-half {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 0;
+    min-height: 50vh;
+}
+
+
+/* Elements */
+
+
+.text-area {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.tour {
+    padding: 100px 0;
+}
+
+.tour-date {
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tour-date:hover {
+    background-color: white;
+}
+
+.details {
+    width: 90%;
+    float: left;
+    text-align: left;
+}
+
+.link {
+    text-align: right;
+}
+
+.down-arrow {
+    bottom: 0px;
+    margin: 30px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.down-arrow i {
+    cursor:pointer;
+    color: white;
+}
+
+/* Section Colors */
+
+#home {
+    background-image: url(/assets/images/little-jamaica-views.jpg);
+    background-repeat: none;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+}
+
+#tour {
+    background-image: url(/assets/images/mike-and-benny.jpg);
+    background-repeat: none;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+/* Typography */
+
+
+h1 {
+    font-size: 130px;
+    line-height: .75em;
+    margin: 30px;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}

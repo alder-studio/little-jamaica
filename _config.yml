@@ -1,0 +1,23 @@
+title: Little Jamaica
+email: ben@littlejamaica.world
+description: The recording studio and website of Benny Yurco.
+baseurl: ""
+url: "localhost:4000"
+
+collections:
+- shows
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/

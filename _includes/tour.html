@@ -1,0 +1,10 @@
+<div class="tour">
+    {% for show in site.shows %}
+        <a href="{{ show.link }}" target="_blank">
+            <div class="tour-date">
+                <div class="details">{{ show.location }}, {{ show.venue }}, {{ show.date | date: '%B %d, %Y' }}, {{ show.time }}</div> 
+                <div class="link"><i class="far fa-link fa-sm"></i></div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
