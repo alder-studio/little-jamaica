@@ -1,20 +1,8 @@
 @media only screen and (max-width: 600px)  {
-    .big-picture {
-        width: 100% !important;
-    }
-    
-    h1 {
-        font-size: 100px !important;
-    }
-    
-    h3 {
-        font-size: 24px !important;
-    }
-    
-    #tour {
-        background-position: right !important;
-    }
-    
+    .big-picture { width: 100% !important;}
+    h1 { font-size: 100px !important; }
+    h3 { font-size: 24px !important;}
+    #tour {background-position: right !important;}   
 }
 
 /* Structure */
