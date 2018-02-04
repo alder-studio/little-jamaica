@@ -1,3 +1,5 @@
+/* Mobile Tweaks */
+
 @media only screen and (max-width: 600px)  {
     .big-picture { width: 100% !important;}
     h1 { font-size: 100px !important; }
@@ -7,15 +9,11 @@
 }
 
 /* Structure */
-img {
-    width: 100%;
-    height: auto;
-}
 
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   }
 
 html,body {
@@ -48,6 +46,11 @@ html>body .content {
 
 /* Images */
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .big-picture {
     display: block;
     width: 75%;
@@ -73,6 +76,52 @@ html>body .content {
 .caption i, p {
     display: inline-block;
     margin: 0 5px;
+}
+
+
+/* Section Colors */
+
+#top {
+    background-image: url(/assets/images/little-jamaica-views.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+}
+
+#tour {
+    background-image: url(/assets/images/mike-and-benny.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#footer {
+    background-image: url(/assets/images/sky.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 130px;
+    line-height: .75em;
+    margin: 30px;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Elements */
@@ -146,50 +195,4 @@ html>body .content {
 
 .contact-link i {
     padding: 15px;
-}
-
-/* Section Colors */
-
-#top {
-    background-image: url(/assets/images/little-jamaica-views.jpg);
-    background-position: bottom;
-    background-size: cover;
-    color: white;
-}
-
-#tour {
-    background-image: url(/assets/images/mike-and-benny.jpg);
-    background-position: bottom;
-    background-size: cover;
-}
-
-#footer {
-    background-image: url(/assets/images/sky.jpg);
-    background-position: bottom;
-    background-size: cover;
-}
-
-/* Typography */
-
-
-h1 {
-    font-size: 130px;
-    line-height: .75em;
-    margin: 30px;
-}
-
-h3 {
-    font-weight: 100;
-}
-
-a {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-a {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
 }
