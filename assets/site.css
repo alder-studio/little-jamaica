@@ -55,6 +55,13 @@ html>body .content {
     margin: 30px auto;
 }
 
+.lil-picture {
+    display: block;
+    width: 75%;
+    max-width: 360px;
+    margin: 30px auto;
+}
+
 .caption {
     opacity: .5;
     font-size: 16px;
@@ -156,8 +163,8 @@ html>body .content {
     background-size: cover;
 }
 
-#spotify {
-    background-image: url(/assets/images/little-jamaica-views.jpg);
+#footer {
+    background-image: url(/assets/images/sky.jpg);
     background-position: bottom;
     background-size: cover;
 }
