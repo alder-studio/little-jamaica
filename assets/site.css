@@ -73,14 +73,16 @@ html>body .content {
     min-height: 50vh;
 }
 
-
 /* Elements */
-
 
 .text-area {
     max-width: 600px;
     margin: auto;
-    padding: 30px;
+    margin: 10px;
+}
+
+.text-block {
+    padding: 0px 30px 60px 30px;
 }
 
 .tour {
