@@ -2,8 +2,12 @@
     {% for show in site.shows %}
         <a href="{{ show.link }}" target="_blank">
             <div class="tour-date">
-                <div class="details">{{ show.location }}, {{ show.venue }}, {{ show.date | date: '%B %d, %Y' }}, {{ show.time }}</div> 
-                <div class="link"><i class="far fa-link fa-sm"></i></div>
+                <div class="details">
+                    <div class="detail">{{ show.location }} – {{ show.venue }}</div>
+                    <div class="detail">{{ show.venue }}</div>
+                    <div class="detail">{{ show.date | date: '%B %d, %Y' }}</div>
+                </div>
+                    <div class="link"><i class="far fa-ticket-alt"></i>Tickets</div>
             </div>
         </a>
     {% endfor %}

@@ -7,37 +7,21 @@
         font-size: 100px !important;
     }
     
-    #tour {
-    background-position: right !important;
+    h3 {
+        font-size: 24px !important;
     }
+    
+    #tour {
+        background-position: right !important;
+    }
+    
 }
 
-/* Images */
-
-.big-picture {
-    width: 60%;
-    max-width: 800px;
-    margin: auto;
-}
-
-.caption {
-    font-size: 16px;
-    display: inline-block;
-    width: 100%;
-    margin: 30px 0;
-}
-
-.caption i, p {
-    display: inline-block;
-    margin: 0 5px;
-}
-
+/* Structure */
 img {
     width: 100%;
     height: auto;
 }
-
-/* Structure */
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -62,41 +46,56 @@ html>body .content {
   min-height:100%;
 }
 
-.block {
+.row {
     display: flex;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.block-half {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 60px 0;
-    min-height: 50vh;
+.row-inner {
+    padding: 30px;
+}
+
+/* Images */
+
+.big-picture {
+    display: block;
+    width: 75%;
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+.caption {
+    opacity: .5;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.caption i, p {
+    display: inline-block;
+    margin: 0 5px;
 }
 
 /* Elements */
 
-.text-area {
-    max-width: 600px;
+.banner {
+    max-width: 540px;
     margin: auto;
 }
 
 .text-block {
-    padding: 0px 30px 60px 30px;
-}
-
-.tour {
-    padding: 100px 0;
+    max-width: 540px;
+    margin: 90px auto;
 }
 
 .tour-date {
-    padding: 30px;
+    width: 100%;
+    margin: 30px auto;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
+    display: table;
 }
 
 .tour-date:hover {
@@ -104,13 +103,31 @@ html>body .content {
 }
 
 .details {
-    width: 90%;
-    float: left;
+    width: 75%;
     text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.detail {
+    padding: 2.5px;
 }
 
 .link {
-    text-align: right;
+    width: 25%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    border: 1px solid;
+    border-left: 0px;
+}
+
+.link i {
+    padding: 10px;
+    vertical-align: middle;
 }
 
 .down-arrow {
@@ -120,14 +137,9 @@ html>body .content {
     width: 100%;
 }
 
-.down-arrow i {
-    cursor:pointer;
-    color: white;
-}
-
 /* Section Colors */
 
-#home {
+#top {
     background-image: url(/assets/images/little-jamaica-views.jpg);
     background-repeat: none;
     background-position: bottom;

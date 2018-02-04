@@ -3,41 +3,39 @@ layout: default
 ---
 
 <div id="content">
-    <div class="block" id="home">
-        <div class="text-area">
+    <div class="row" id="top">
+        <div class="banner">
             <p>Greetings from</p>
             <h1>Little Jamaica</h1>
             <p>{{ site.description }}</p>
         </div>
         
         <div class="down-arrow">
-            <a href="#about"><i class="far fa-arrow-circle-down fa-lg"></i></a>
+            <i class="far fa-arrow-circle-down fa-lg"></i>
         </div>   
     </div>
     
-    <div class="block-half" id="about">
-        <div class="text-area">
+    <div class="row" id="middle">
+        <div class="row-inner">
             <div class="text-block">
-                <h3>On tour nau with Michael Nau & the Mighty Thread. Our new album "Called Something" recorded at Little Jamaica and out on now on X-Rayers Records.</h3>
+                <h3>On tour nau with Michael Nau & the Mighty Thread. Our new album <i>Called Something</i>, recorded  at Little Jamaica, is out on now on X-Rayers Records.</h3>
             </div>
-        </div>
-        
         <div class="big-picture">
             <div class="image"><img src="/assets/images/MightyThread-Web.jpg"></div>  
             <div class="caption">
-                <i class="fal fa-camera"></i><p>Jasmine Parsia, August 2017</p>
+                <i class="far fa-camera"></i><p>Jasmine Parsia, August 2017</p>
             </div>    
         </div>
-        
+        </div>
     </div> 
     
-    <div class="block-half" id="tour">
-            {% include tour.html %}    
+    <div class="row" id="tour">
+        <div class="row-inner">
+            {% include tour.html %}
+        </div>
     </div> 
     
-    <div class="block" id="footer">
-        
+    <div class="row" id="bottom">
         <p><i class="fas fa-bolt"></i> benjaminyurco@gmail.com</p>
-        
     </div>
 </div>
