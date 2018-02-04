@@ -138,11 +138,6 @@ html>body .content {
     width: 100%;
 }
 
-.contact {
-    display: table;
-    width: 75%;
-    margin: auto;
-}
 
 .contact-link {
     display: inline-block;
