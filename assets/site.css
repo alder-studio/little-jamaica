@@ -2,29 +2,13 @@
 
 .spotify-embeds {
     width: 100%;
-    padding: 50px;
+    padding: 5vh;
     max-width: 960px;
     margin: 0 auto;
 }
 
 .spotify-embed {
   background: transparent;
-  
-  &:not(:last-of-type) {
-    margin-bottom: 5px;
-  }
-  
-  iframe {
-    display: block;
-    transition: opacity 0.125s;
-    .js & {
-      opacity: 0;
-      
-      &.loaded {
-        opacity: 1;
-      }
-    }
-  }
 }
 
 /* Mobile Tweaks */
@@ -35,6 +19,7 @@
     h3 { font-size: 24px !important; }
     #tour { background-position: right !important; }
     .contact-link { width: 100% !important; }
+    .caption i, p { width: 100% !important; }
 }
 
 /* Structure */
