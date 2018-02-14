@@ -1,3 +1,32 @@
+/* Spotify Embed */
+
+.spotify-embeds {
+    width: 100%;
+    padding: 50px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.spotify-embed {
+  background: transparent;
+  
+  &:not(:last-of-type) {
+    margin-bottom: 5px;
+  }
+  
+  iframe {
+    display: block;
+    transition: opacity 0.125s;
+    .js & {
+      opacity: 0;
+      
+      &.loaded {
+        opacity: 1;
+      }
+    }
+  }
+}
+
 /* Mobile Tweaks */
 
 @media only screen and (max-width: 600px)  {
